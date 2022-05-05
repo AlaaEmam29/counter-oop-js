@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color:#F1F5F8
+}
+.counter-container
+{
+width:600px;
+padding:2rem
+}
+h2,span
+{
+    font-size: 4rem;
+  
+}
+span {
+    font-weight: bold;
+    padding-bottom: 2rem;
+    display: inline-block;
+  }
+  
+
+@media screen and  (max-width :767.98px)
+{
+    .counter-container
+    {
+    width:500px;
+    }
+    h2,span
+    {
+        font-size: 3.5rem;
+      
+    }
+}
